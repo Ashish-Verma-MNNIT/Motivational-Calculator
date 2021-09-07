@@ -1,0 +1,164 @@
+        /* sorry if I created Rangoli */
+
+html{
+    font-size: 10px;
+}
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 400px) {
+    html{
+        font-size: 6px;
+    }
+}
+#mode:hover{
+    cursor:pointer;
+}
+         /*  Dark Mode (D suffix in class/id)*/
+
+.headingD{
+    text-align: center;
+    font-family: cursive;
+    font-size: 4rem;
+    margin: 0 auto 2rem;
+}
+#CalculatorOutboxD{
+    margin: auto;
+    padding: 0 2rem 2rem;
+    border: 3px solid green;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    background-color: rgb(97, 93, 97);
+    width: fit-content;
+}
+.containerD{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 35rem;
+    min-width: 10rem;
+    margin:3rem auto;
+}
+
+.buttonD{
+    background-color: rgb(8, 90, 243);
+    border: 1px solid white;
+    color: black;
+    font-size: 2.5rem;
+    padding:1.2rem 0;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+#CD{
+    background-color: red;
+}
+#equalsD{
+    background-color: orangered;
+}
+.buttonD:hover{
+    cursor: pointer;
+}
+#inputAreaD, #ResultAreaD{
+    background-color: rgb(116, 110, 110);
+    color: aqua;
+    display: block;
+    font-size: 2.8rem;
+    max-width: 50rem;
+    min-width: 30rem;
+    margin:3rem auto;
+    font-family: monospace;
+    text-align: right;
+}
+.blockquoteD{
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: monospace;
+    font-weight: 100;
+    font-style: italic;
+}
+.citeD{
+    font-size: 3rem;
+    padding-right: 8rem;
+    display: block;
+    text-align: right;
+}
+
+
+    /* Light mode */
+
+    .heading{
+        text-align: center;
+        font-family: cursive;
+        font-size: 4rem;
+        margin: 0 auto;
+    }
+    #CalculatorOutbox{
+        margin: auto;
+        padding: 0 2rem 2rem;
+        border: .3rem solid green;
+        border-top-left-radius: 4rem;
+        border-top-right-radius: 4rem;
+        background-color: rgb(241, 197, 241);
+        width: fit-content;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+        max-width: 35rem;
+        min-width: 10rem;
+        margin:3rem auto;
+    }
+
+    .button{
+        background-color: rgb(101, 148, 235);
+        border: .1rem solid rgb(17, 17, 17);
+        border-radius: .5rem;
+        color: black;
+        font-size: 2.5rem;
+        padding:1.2rem 0;
+        font-weight: bold;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+    }
+    #C{
+        background-color: red;
+    }
+    #equals{
+        background-color: orangered;
+    }
+    .button:hover{
+        cursor: pointer;
+    }
+    #inputArea, #ResultArea{
+        background-color: rgb(243, 232, 232);
+        color: rgb(13, 14, 14);
+        display: block;
+        font-size: 2.8rem;
+        max-width: 50rem;
+        min-width: 30rem;
+        margin:3rem auto;
+        font-family: monospace;
+        text-align: right;
+    }
+    .blockquote{
+        background-color: rgb(48, 49, 47);
+        border: .2rem solid white;
+        border-bottom-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        text-align: center;
+        font-size: 2.2rem;
+        font-family: monospace;
+        font-weight: 100;
+        font-style: italic;
+    }
+    .cite{
+        color: rgb(6, 22, 250);
+        font-size: 2rem;
+        font-weight: bold;
+        padding-right: 8rem;
+        display: block;
+        text-align: right;
+    }
