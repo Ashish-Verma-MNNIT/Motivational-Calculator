@@ -18,8 +18,8 @@ function Motivation(props){
     useEffect(()=>setColor(randomcolor()),[moti])       //new color when quote changes
       const name=props.mode?"D":""
     return (
-        <div>
-            <blockquote className={"blockquote"+name} style={{color:color}}>{moti.body?"‟":null}{moti.body}{moti.body?"❞":null}</blockquote>
+        <div id={"quote"+name}>
+            <blockquote className={"blockquote"+name} style={{color:color}}>{moti.body?"‟":"loading quotes..."}{moti.body}{moti.body?"❞":null}</blockquote>
             <cite className={"cite"+name}>{moti.author?"--":null} {moti.author}</cite>
         </div>
     )
