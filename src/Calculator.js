@@ -1,6 +1,6 @@
 //this is calculator
 
-import React,{ useEffect, useRef } from "react"
+//import React,{ useEffect, useRef } from "react"
 import "./mode.css"
 import clickHandler from "./Logic"
 
