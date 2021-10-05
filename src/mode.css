@@ -114,7 +114,6 @@ html{
     }
 
     .button{
-        background-color: rgb(101, 148, 235);
         border: .1rem solid rgb(17, 17, 17);
         border-radius: .5rem;
         margin: .2rem;
@@ -126,10 +125,10 @@ html{
         text-align: center;
     }
     #C{
-        background-color: red;
+        background-color: rgb(245, 182, 182);
     }
     #equals{
-        background-color: orangered;
+        background-color: rgb(170, 241, 153);
     }
     .button:active, #C:active, #equals:active{
         cursor: pointer;
@@ -147,7 +146,8 @@ html{
         text-align: right;
     }
     #quote{
-        background-color: black;
+        background-color: cornsilk;
+        border: .2rem solid black;
         border-radius: 2rem;
     }
     .blockquote{
@@ -159,7 +159,7 @@ html{
         font-style: italic;
     }
     .cite{
-        color: rgb(254, 254, 255);
+        color: rgb(0, 0, 255);
         font-size: 2rem;
         font-weight: bold;
         padding-right: 8rem;
