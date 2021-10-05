@@ -27,10 +27,8 @@ html{
 #CalculatorOutboxD{
     margin: auto;
     padding: 0 2rem 2rem;
-    border: 3px solid green;
-    border-top-left-radius: 4rem;
-    border-top-right-radius: 4rem;
-    background-color: rgb(97, 93, 97);
+    border: .2rem solid white;
+    background-color: rgb(5, 5, 5);
     width: fit-content;
 }
 .containerD{
@@ -42,27 +40,32 @@ html{
 }
 
 .buttonD{
-    background-color: rgb(8, 90, 243);
-    border: 1px solid white;
-    color: black;
+    margin: .2rem;
+    background-color: rgb(37, 50, 75);
+    border: 0.5px solid white;
+    color: rgb(248, 241, 241);
     font-size: 2.5rem;
     padding:1.2rem 0;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
+.buttonD:active{
+    background-color: rgb(19, 48, 100);
+}
 #CD{
-    background-color: red;
+    background-color: rgb(94, 7, 7);
 }
 #equalsD{
-    background-color: orangered;
+    background-color: rgb(66, 48, 41);
 }
-.buttonD:hover{
+.buttonD:active, #CD:active, #equalsD:active{
     cursor: pointer;
+    background-color: black;
 }
-#inputAreaD, #ResultAreaD{
+#inputAreaD{
     background-color: rgb(116, 110, 110);
-    color: aqua;
+    color: rgb(241, 243, 243);
     display: block;
     font-size: 2.8rem;
     max-width: 50rem;
@@ -73,13 +76,13 @@ html{
 }
 .blockquoteD{
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-family: monospace;
     font-weight: 100;
     font-style: italic;
 }
 .citeD{
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding-right: 8rem;
     display: block;
     text-align: right;
@@ -97,10 +100,8 @@ html{
     #CalculatorOutbox{
         margin: auto;
         padding: 0 2rem 2rem;
-        border: .3rem solid green;
-        border-top-left-radius: 4rem;
-        border-top-right-radius: 4rem;
-        background-color: rgb(241, 197, 241);
+        border: .2rem solid rgb(8, 8, 8);
+        background-color: rgb(255, 255, 255);
         width: fit-content;
     }
     .container{
@@ -116,6 +117,7 @@ html{
         background-color: rgb(101, 148, 235);
         border: .1rem solid rgb(17, 17, 17);
         border-radius: .5rem;
+        margin: .2rem;
         color: black;
         font-size: 2.5rem;
         padding:1.2rem 0;
@@ -129,11 +131,12 @@ html{
     #equals{
         background-color: orangered;
     }
-    .button:hover{
+    .button:active, #C:active, #equals:active{
         cursor: pointer;
+        background-color: rgb(68, 54, 54);
     }
-    #inputArea, #ResultArea{
-        background-color: rgb(243, 232, 232);
+    #inputArea{
+
         color: rgb(13, 14, 14);
         display: block;
         font-size: 2.8rem;
@@ -144,10 +147,9 @@ html{
         text-align: right;
     }
     .blockquote{
-        background-color: rgb(48, 49, 47);
-        border: .2rem solid white;
-        border-bottom-left-radius: 3rem;
-        border-top-right-radius: 3rem;
+
+        border: .2rem solid rgb(0, 0, 0);
+        border-radius: 2rem;
         text-align: center;
         font-size: 2.2rem;
         font-family: monospace;
@@ -155,7 +157,7 @@ html{
         font-style: italic;
     }
     .cite{
-        color: rgb(6, 22, 250);
+        color: rgb(16, 24, 97);
         font-size: 2rem;
         font-weight: bold;
         padding-right: 8rem;
